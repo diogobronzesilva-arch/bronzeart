@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^$ /pt/ [R=301,L]
+
+RedirectMatch 301 ^/weddings/?$ /en/weddings/
+RedirectMatch 301 ^/casamentos/?$ /pt/casamentos/
+RedirectMatch 301 ^/catholicsacraments/?$ /en/catholic-sacraments/
+RedirectMatch 301 ^/family-sessions-in-fatima/?$ /en/family-sessions-in-fatima/
+RedirectMatch 301 ^/retratos/?$ /pt/retrato-classico/
+RedirectMatch 301 ^/event-photography/?$ /pt/obra/
+RedirectMatch 301 ^/sfumato-and-chiaroscuro-portraits/?$ /pt/retrato-classico/
